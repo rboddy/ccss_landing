@@ -1709,5 +1709,19 @@
     .ctaBtn {
       margin-left: 10%;
     }
+    .modal {
+      width: 90%;
+      left: 5%;
+      top: 5%;
+      padding: 50px 10px 10px 10px;
+    }
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .modal {
+      width: 90%;
+      left: 5%;
+      top: 5%;
+      padding: 50px 10px 10px 10px;
+    }
   }
 </style>

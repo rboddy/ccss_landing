@@ -24,7 +24,7 @@
     margin: 0 auto;
   }
   li {
-    font-size: 2.5em;
+    font-size: 3vh;
     font-family: "Caveat", cursive;
   }
   .aboutContent {
@@ -42,5 +42,22 @@
     font-family: "Oswald", sans-serif;
     font-size: 7vh;
     text-align: center;
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    ul {
+      columns: 1;
+      -webkit-columns: 1;
+      -moz-columns: 1;
+    }
+  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    ul {
+      columns: 2;
+      -webkit-columns: 2;
+      -moz-columns: 2;
+    }
+    li {
+      font-size: 1.5em;
+    }
   }
 </style>
