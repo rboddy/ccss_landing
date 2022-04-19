@@ -1775,7 +1775,7 @@ async function respond(request, options, state) {
   const event = {
     get clientAddress() {
       if (!state.getClientAddress) {
-        throw new Error(`${"@sveltejs/adapter-auto"} does not specify getClientAddress. Please raise an issue`);
+        throw new Error(`${"@sveltejs/adapter-static"} does not specify getClientAddress. Please raise an issue`);
       }
       Object.defineProperty(event, "clientAddress", {
         value: state.getClientAddress()

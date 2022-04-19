@@ -7,7 +7,7 @@
 <section>
   <div>
     <img src="images/CSS3D_nobg_cropped.png" alt="CSS logo" />
-    <img class="shrink" src="images/arrow.png" alt="Arrow Text" />
+    <img class="shrink" src="images/Arrow.png" alt="Arrow Text" />
   </div>
   <div>
     <Intro />

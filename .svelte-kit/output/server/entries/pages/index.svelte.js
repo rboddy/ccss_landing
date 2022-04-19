@@ -63,7 +63,7 @@ const css = {
 const Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `<section class="${"svelte-aolwf2"}"><div><img src="${"images/CSS3D_nobg_cropped.png"}" alt="${"CSS logo"}" class="${"svelte-aolwf2"}">
-    <img class="${"shrink svelte-aolwf2"}" src="${"images/arrow.png"}" alt="${"Arrow Text"}"></div>
+    <img class="${"shrink svelte-aolwf2"}" src="${"images/Arrow.png"}" alt="${"Arrow Text"}"></div>
   <div>${validate_component(Intro, "Intro").$$render($$result, {}, {}, {})}
     ${validate_component(Cta, "Cta").$$render($$result, {}, {}, {})}</div></section>
 ${validate_component(About, "About").$$render($$result, {}, {}, {})}`;
