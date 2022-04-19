@@ -18,7 +18,7 @@
 
 <style>
   :global(body) {
-    background: url("images/jagged.svg");
+    background: url("/images/jagged.svg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;

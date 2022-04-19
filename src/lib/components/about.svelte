@@ -16,7 +16,7 @@
 
 <style>
   ul {
-    list-style: url("images/bullet.png");
+    list-style: url("/images/bullet.png");
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
