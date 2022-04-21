@@ -1,5 +1,5 @@
 <section>
-  <h1>Conquering CSS</h1>
+  <h1>Conquer CSS</h1>
   <h3>
     Master Cascading Style Sheets and Learn how to create a more Beautiful
     Website
