@@ -1706,14 +1706,15 @@
     box-shadow: 8px 8px 16px 16px rgba(0, 0, 0, 0.25);
   }
   @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-    .ctaBtn {
-      margin-left: 10%;
-    }
     .modal {
       width: 90%;
       left: 5%;
       top: 5%;
       padding: 50px 10px 10px 10px;
+    }
+    .ctaBtn {
+      display: block;
+      margin: 0 auto;
     }
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -1722,6 +1723,10 @@
       left: 5%;
       top: 5%;
       padding: 50px 10px 10px 10px;
+    }
+    .ctaBtn {
+      display: block;
+      margin: 0 auto;
     }
   }
 </style>

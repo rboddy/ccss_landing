@@ -26,7 +26,7 @@
 
 <style>
   section {
-    width: 80%;
+    width: 60%;
   }
   * {
     color: #eaf2ef;

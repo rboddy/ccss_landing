@@ -6,8 +6,7 @@
 
 <section>
   <div>
-    <img src="images/CSS3D_nobg_cropped.png" alt="CSS logo" />
-    <img class="shrink" src="images/Arrow.png" alt="Arrow Text" />
+    <img src="images/BookStack.png" alt="CSS logo" />
   </div>
   <div>
     <Intro />
@@ -23,17 +22,12 @@
     background-size: cover;
     margin: 0;
   }
-  .shrink {
-    width: 250px;
-    padding: 0px 50px 0px 80px;
-    display: block;
-  }
   img {
-    width: 400px;
+    width: 90%;
     height: auto;
   }
   section {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 5em;
     display: grid;
@@ -50,16 +44,12 @@
     section {
       grid-template-columns: 1fr;
     }
-    .shrink {
-      display: none;
-    }
     img {
-      width: 70%;
+      width: 90%;
       display: block;
       margin: 0 auto;
       margin-bottom: 50px;
-      background-color: #e6af2e;
-      padding: 20px;
+      background-color: #6290c8;
       border-radius: 45px;
     }
   }
@@ -74,15 +64,13 @@
       background-size: cover;
       margin: 0;
     }
-    img:first-of-type {
-      margin-left: 10%;
-      background-color: #e6af2e;
-      padding: 20px;
+    img {
+      width: 90%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 50px;
+      background-color: #6290c8;
       border-radius: 45px;
-      margin-bottom: 10%;
-    }
-    .shrink {
-      display: none;
     }
   }
 </style>
