@@ -1403,7 +1403,7 @@
 
 <style>
   :global(body) {
-    background: url("images/peaks.svg");
+    background: url("/images/peaks.svg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
