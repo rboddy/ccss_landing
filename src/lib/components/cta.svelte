@@ -10,7 +10,7 @@
 </script>
 
 <button class="ctaBtn" on:click|preventDefault={openModal}
-  >Notify Me at Launch</button
+  >Get a Free Copy at Launch</button
 >
 
 {#if visible}
@@ -1685,7 +1685,6 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     padding: 20px;
-    width: 300px;
     font-size: 24px;
     font-family: "Open Sans", sans-serif;
     border: none;
