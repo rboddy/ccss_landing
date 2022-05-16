@@ -2,6 +2,7 @@
   import Intro from "$lib/components/intro.svelte";
   import Cta from "$lib/components/cta.svelte";
   import About from "$lib/components/about.svelte";
+  import FreeTemplate from "$lib/components/freeTemplate.svelte";
 </script>
 
 <section>
@@ -14,12 +15,13 @@
   </div>
 </section>
 <About />
+<FreeTemplate />
 
 <style>
   :global(body) {
     background: url("/images/jagged.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     margin: 0;
   }
   img {
