@@ -1,6 +1,6 @@
 <div class="formContainer">
   <style type="text/css">
-    @import url("https://groot.mailerlite.com/assets/plugins/groot/modules/includes/groot_fonts/import.css?version=1650619");
+    @import url("https://groot.mailerlite.com/assets/plugins/groot/modules/includes/groot_fonts/import.css?version=1653492");
   </style>
   <style type="text/css">
     /* LOADER */
@@ -1325,38 +1325,6 @@
 
             <!-- /Privacy policy -->
 
-            <div
-              class="ml-form-recaptcha ml-validate-required"
-              style="float: left;"
-            >
-              <style type="text/css">
-                .ml-form-recaptcha {
-                  margin-bottom: 20px;
-                }
-
-                .ml-form-recaptcha.ml-error iframe {
-                  border: solid 1px #ff0000;
-                }
-
-                @media screen and (max-width: 480px) {
-                  .ml-form-recaptcha {
-                    width: 220px !important;
-                  }
-                  .g-recaptcha {
-                    transform: scale(0.78);
-                    -webkit-transform: scale(0.78);
-                    transform-origin: 0 0;
-                    -webkit-transform-origin: 0 0;
-                  }
-                }
-              </style>
-              <script src="https://www.google.com/recaptcha/api.js"></script>
-              <div
-                class="g-recaptcha"
-                data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"
-              />
-            </div>
-
             <input type="hidden" name="ml-submit" value="1" />
 
             <div class="ml-form-embedSubmit">
@@ -1397,7 +1365,7 @@
   </script>
 
   <script
-    src="https://groot.mailerlite.com/js/w/webforms.min.js?ve398743b733fc0b40dcbf5777b0b4406"
+    src="https://groot.mailerlite.com/js/w/webforms.min.js?v982545f425161d5f5c95b96ab6c34e1b"
     type="text/javascript"></script>
 </div>
 
