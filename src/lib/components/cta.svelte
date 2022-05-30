@@ -1,4 +1,6 @@
 <script>
+  import { goto } from "$app/navigation";
+
   import { slide } from "svelte/transition";
   let visible = false;
   function closeModal() {
@@ -7,11 +9,12 @@
   function openModal() {
     visible = true;
   }
+  function openAmazon() {
+    goto("https://www.amazon.com/dp/B0B2MMG3C2");
+  }
 </script>
 
-<button class="ctaBtn" on:click|preventDefault={openModal}
-  >Get a Free Copy at Launch</button
->
+<button class="ctaBtn" on:click|preventDefault={openAmazon}>Buy Now!</button>
 
 {#if visible}
   <div class="modal" id="modal" transition:slide>
